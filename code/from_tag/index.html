@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/summit_page.php" method="get" autocomplete="off" name="myForm" enctype="text/plain" target="_blank">
+    <form action="../index.html" method="get" autocomplete="off" name="myForm" enctype="text/plain" target="_blank">
         <input type="email" maxlength="20" required/>
         <input type="password" maxlength="10" required/>
         <button>Enter</button>
@@ -39,5 +39,28 @@
     <details>this is details</details>
     <summary>this is summary</summary>
     <time>this is time</time>
+    <br>
+    <datalist>
+        <optgroup>
+            <option>opt1</option>
+            <option>opt1</option>
+            <option>opt1</option>
+            <option>opt1</option>
+        </optgroup>
+    </datalist>
+    <select name="cars" multiple>
+        <optgroup multiple>
+            <option>opt1</option>
+            <option>opt1</option>
+            <option>opt1</option>
+            <option>opt1</option>
+        </optgroup>
+        <option value="car1">car1</option>
+        <option value="car2" selected>car2</option>
+        <option value="car3">car3</option>
+        <option value="car4">car4</option>
+    </select>
+    <button onclick="alert(`this is alert cars`)">button</button>
+    
 </body>
 </html>
