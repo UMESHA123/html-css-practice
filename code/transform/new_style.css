@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.box1{
+    height: 200px;
+    width: 20%;
+    margin: 10px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.newbox1{
+    border-top: 5px solid black;
+    transition: all 0.5s;
+}
+.newbox1:hover{
+    transform: translateX(100px);
+}
+
+.newbox2{
+    border-top: 5px solid rgb(243, 76, 76);
+    transition: all 0.5s;
+}
+.newbox2:hover{
+    transform: translatex(-100px);
+}
+.newbox3{
+    border-top: 5px solid black;
+    transition: all 0.5s;
+}
+.newbox3:hover{
+    transform: translatey(100px);
+}
+.newbox4{
+    border-top: 5px solid black;
+    transition: all 0.5s;
+}
+.newbox4:hover{
+    transform: translatey(-100px);
+}
+.newbox5{
+    border-top: 5px solid rgb(121, 8, 121);
+    transition: all 0.5s;
+}
+.newbox5:hover{
+    transform: translate(100px,-100px);
+}
+.newbox6{
+    border-top: 5px solid rgb(121, 8, 121);
+    transition: all 0.5s;
+}
+.newbox6:hover{
+    transform: translate(-100px,100px);
+}
+.newbox7{
+    border-top: 5px solid rgb(121, 8, 121);
+    transition: all 0.5s;
+}
+.newbox7:hover{
+    transform: translate(-100px,-100px);
+}
+.newbox8{
+    border-top: 5px solid rgb(121, 8, 121);
+    transition: all 0.5s;
+}
+.newbox8:hover{
+    transform: translate(100px,100px);
+}
+.newbox9{
+    border-top: 5px solid rgb(121, 8, 121);
+    transition: all 0.5s;
+}
+.newbox9:hover{
+    transform: translateZ(90px);
+}
+.newbox10{
+    border-top: 5px solid rgb(121, 8, 121);
+    transition: all 0.5s;
+}
+.newbox10:hover{
+    transform: translate3d(100px,100px,100px);
+}
